@@ -375,4 +375,14 @@ appHighlight, appDelay törölve
     <p>{{hero.superpower}}</p>
   </li>
 </ul>
---
+-------------------------
+eddig volt az 123d, 
+az 3. Angular 2 plusz keretrendszer - Ajax és Angular,
+innentől az 1234
+Angular 2 plusz keretrendszer - Űrlapok > Angular sablon változók a gyakorlatban
+-------------------------
+29. hero-detail.component.html:
+#search template reference variable
+(keyup)="0"
+
+
