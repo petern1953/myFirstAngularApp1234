@@ -381,8 +381,13 @@ az 3. Angular 2 plusz keretrendszer - Ajax és Angular,
 innentől az 1234
 Angular 2 plusz keretrendszer - Űrlapok > Angular sablon változók a gyakorlatban
 -------------------------
-29. hero-detail.component.html:
+29. hero.component.html:
 #search template reference variable
 (keyup)="0"
 
-
+<div class="row">
+  <div class="col-8 offset-2">
+    <input class="form-control" #search (keyup)="0" type="text">
+    <p>{{ search.value }}</p>
+  </div>
+</div>
